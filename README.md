@@ -28,9 +28,9 @@ The memory card game is a fun, web-based game designed to test your memory skill
 <hr>
 
 ### Technologies Used
-**HTML:** To structure the game and define the card grid
-**CSS:** For styling the game layout, cards, and the congratulations overlay
-**JavaScript:** To handle game logic, including card flipping, matching, move counting, and the timer
+- **HTML:** To structure the game and define the card grid
+- **CSS:** For styling the game layout, cards, and the congratulations overlay
+- **JavaScript:** To handle game logic, including card flipping, matching, move counting, and the timer
 
 <hr>
 
@@ -39,15 +39,34 @@ The memory card game is a fun, web-based game designed to test your memory skill
 2. Open the index.htm file in any modern web browser
 3. Play the Game
 
+<hr>
+
 ### Project Structure
 
+<pre>
 Memory Card Game/
-|-index.html
-|-style.css
-|-script.js
-|-README.md
+   |-index.html
+   |-style.css
+   |-script.js
+   |-README.md
+</pre>
+<hr>
 
 ### Customization
 You can customize the game by modifying the following:
-- **Card Grid Size:**
+- **Card Grid Size:** Change the grid size (e.g., 4x4 or 6x6) by adding or removing cards in the cards array in script.js
+- **Card Designs:** Update the card images or content by changing the values in the cards array
+- **Styling:** Adjust colors, fonts, or layout by editing style.css
+
+<hr>
+
+### Future Enhancements
+- Implement a scoring system based on the number of moves and time taken
+- Add different difficulty levels with varying grid sizes
+- Include animations for card flipping and matching
+- Add sound effects for card flips, matches, and game completion
+
+
+
+
 
